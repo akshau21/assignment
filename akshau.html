@@ -1,0 +1,104 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+            height: 80vh;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid #000;
+            background-color: aqua;
+            overflow: hidden;
+            
+        }
+        .left-side{
+            background-color: #00bcd4;
+            color: white;
+            padding: 50px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right-side{
+            background-color:rgb(23, 122, 175);
+            padding: 50px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+
+        }
+        input,textarea{
+            width:20vw;
+            
+
+        }
+       input[type="submit"]button{
+        background-color: #129278;
+       }
+        
+       
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left-side">
+       <h1>Lets chat</h1> 
+       <p>whether you have a question ,want to start a project or simply wnat to connect
+        feel free to send me a message in the contact </p>
+    </div>
+    <div class="right-side">
+         <h1>Contact</h1>
+
+        <form action="#"method=post>
+            <fieldset>
+
+                <legend>Requierd</legend>            
+                <input type="text" id="name" name="name" placeholder="Name"
+                required>
+               
+                <br><br>
+               
+               <input type="text" id="email" name="email" placeholder="Email"
+               required>
+               
+               <br><br>
+               
+               <input type="text" id="company" name="company" placeholder="company"
+               required>
+               <br><br>
+             
+               <input type="text" id="phone" name="phone" placeholder="Phone"
+               required>
+               <br><br>
+              
+               <textarea name="massage" id="massage" cols="50" rows="5" placeholder="Enter you massage"></textarea>
+               <br><br>
+               <button type="submit"> Submit</button>
+              
+
+            </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+</html>
