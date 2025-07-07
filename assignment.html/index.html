@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complet Html tags </title>
+    <style>
+      body{
+        font-family: Arial, sans-serif;
+        background-color: rgb(183, 194, 215);
+      }
+            header{
+                background-color: rgb(58, 153, 153);
+                font-size: 10px;
+                padding: 10px;   
+            }
+        
+       nav {
+            background-color:  #2c3250
+            color :white
+            padding: 10px;
+
+           
+        }
+        nav h2{
+
+            color: white;
+            margin-bottom: 10px;
+            font-style: inherit;
+            font-size: 25px;
+            
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        nav li{
+            background-color: #34495e;
+            
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        main{
+            background-color: rgb(24, 67, 83);
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 100px;
+            padding-right: 100px;
+            padding-left: 100px;
+            margin: 40px;
+            border-radius: 10px;
+            border-left: 5px solid #23011a;
+            box-shadow: 20px 20px 20px rgba(red, green, blue, alpha);
+
+        }
+
+        text {
+            background-color: rgb(68, 23, 68);
+            padding: 50px;
+        }
+      
+       blockquote{
+        background-color: firebrick;
+        
+       padding: 10;
+       }
+
+       
+       
+
+       div{
+        background-color: rgba(red, rgb(61, 12, 49), blue, alpha);
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 40px;
+       }
+       
+       
+
+       a{
+        color: bisque;
+        text-decoration: none;
+        border-bottom: 2px solid tranparent;
+
+       }
+       a :hover{
+        color: #b92929;
+        border-bottom-color:#b92929 ;
+
+       }
+       img{
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 10px  10px rgba(66, 7, 7, 0.1);
+
+       }
+       figure{
+        margin: 20px 0;
+        text-align: center;
+
+
+       }
+
+       figcaption{
+        margin-top: 5px;
+        color: #7f8c8d;
+        font-style: italic;
+
+       }
+
+       table{
+        width: 100px;
+        border-collapse:collapse ;
+        margin: 20px;
+        background:white ;
+        overflow: hidden;
+        box-shadow: #23011a;
+       }
+
+       caption{
+       padding: 10px;
+       font-size: 20px;
+       font-weight: bold;
+       color: #23e502;
+       background-color: #ecf0f1;
+
+       }
+
+       th,td{
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #2c3e50;
+        background: #ecf0f1;
+
+       }
+
+       th{
+        background-color: #2c3e50;
+        color: white;
+        font-weight: bold;
+       }
+
+       tr:nth-child(even){
+        background: #c3c5c3;
+
+       }
+
+       tr:hover{
+        background: #e8f4fd;
+       }
+       tr:hover{
+        background: #e8f4fd;
+       }
+    
+       form{
+        background:rgba(201, 194, 194, 0.1)
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+       }
+       fieldset{
+        border: 2px solid #ecf0f1;
+        padding: 15px;
+        background: rgb(208, 211, 197);
+
+       }
+       legend{
+        font-weight: bold;
+        color: #2c3e50;
+        padding: 0 10px;
+        background: white;
+
+       }
+       label{
+        display: inline-block;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: #34495e;
+       }
+       input, select,textarea{
+        width: 100%;
+        padding: 6px;
+        border: 2px solid #ecf0f1;
+        border-radius:  5px ;
+        font-size: 10px;
+        background: white;
+
+       }
+
+       input:focus,select:focus,textarea:focus{
+        outline: none;
+        border-color: #4cedc4;
+        box-shadow: 0 0 3px rgba(66, 7, 7, 0.1);
+
+       }
+       input[type="radio"],input[type="checkbox"]{
+        width: auto;
+        margin-right: 5px;
+       }
+       
+       input[type="range"]{
+        width: 100%;
+        margin: 10px 0;
+
+       }
+       input[type="color"]{
+        width: 100px;
+        height: 40px;
+        border: none;
+        cursor: pointer;
+       }
+       input[type="file"]{
+        padding: 6px;
+        border-radius: 5px;
+        background: white;
+
+       }
+       input[type="submit"],
+       input[type="reset"],button{
+        background-color: #4cedc4;
+        color: white;
+        border:none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 5px 5px 5px 0;
+        width: auto;
+
+       }
+       input[type="submit"]:hover,
+       input[type="reset"]:hover,
+       button:hover{
+        background-color: #db3f3f;
+       }
+
+
+
+
+
+
+       
+        
+    </style>
+</head>
+<body>
+
+    <header>
+<h1>Complet HTML tags</h1>
+<p>This page demonstrates all basic and advanced HTML tags without any CSS styling</p>
+</header>
+<nav>
+<h2>tabel of content</h2>
+
+    <ul>
+    <li><a href="#text tags">text tags</a></li>
+    <li><a href="list tags">list tags</a></li>
+    <li><a href="link-media">link-medio</a></li>
+    <li><a href="tables">tabels</a></li>
+    <li><a href="formas">formas</a></li>
+    <li><a href="cimantic">cimantic</a></li>
+    <li><a href="advance">advance</a></li>
+</ul>
+</nav>
+
+    <div>
+        <h2>text tags</h2>
+    <h1>heading</h1>
+    <h2>heading</h2>
+    <h3>heading</h3>
+    <h4>heading</h4>
+    <h5>heading</h5>
+    <h6>heading</h6>
+    </div>
+ 
+    <main>
+    <h2>paragraph and text formating</h2>
+   <p>this is regular paregrop with <strong>bold text</strong>,<em>eitalic text</em>,<u>underline text</u> </p>
+   <p>here's text with <mark>Highlighting</mark>, <del>delete text</del>,<ins>insrted text</ins> </p>
+<p>this paregraph contains <small>small text</small>and <big>big text</big></p>
+<p>mathamatical expression: H<sub>2</sub>O and E=mc<sup>2</sup></p>
+<blockquote><p>this is a blockquote it's used for longer quotation</p>
+    <cite>-famous author </cite>
+
+ 
+</blockquote>
+<p><q>this is an inline quote</q>within a paragraph </p>
+<pre>This is preformatted text.
+    It preserves    spaces
+        and line breaks.
+            Perfect for code</pre>
+            <code>console.log("This is inline code");</code>
+            <kbd>Ctrl + C  </kbd>to copy
+            <samp>Program output example</samp>
+            <var>x = y + z</var> (mathematical variable)
+          <div> <mark>  <abbr title="hyper text markup language">HTML</abbr></div> </mark>
+            <dfn>HTML</dfn>Hyper text markup language
+            <address> contact information
+             </address>
+            Contact: John Doe <br>
+              Email: john@example.com<br>
+               Phone: +1-234-567-8900 
+               </main>
+            
+               <nav>
+             <section id="list tags">
+                <h2>list</h2>
+                <h3>unordered list</h3>
+                <ul>
+                 <li>first item</li>
+                 <li>secound item <ul>
+                    <li>nested item 1</li>
+                    <li>nested item 2</li>
+                </ul>
+            </li>
+                 
+                 <li>third item</li>
+                </ul>
+                <h2> order list</h2>
+                <ol type="A">
+                 <li>first item</li>
+                 <li>second item
+                    <ol type="a">
+                        <li>nested item 1</li>
+                        <li>nested item 2</li>
+                    </ol>
+                </li>
+                <li> third item</li>
+
+                </ol>
+                <ol type="I">
+                   <li>first item</li>
+                   <li>second item
+                    <ol type="i">
+                       <li>nested item 1</li> 
+                       <li>nested item 2</li>
+                </ol>
+                   </li> 
+                   <li>third item</li>
+                </ol>
+                </section>
+                </nav>
+                <section id="links-media">
+                    <h2>links & media</h2>
+                    <h3>links</h3>
+                    <p>
+                        
+                    </p>
+                    <a href="https://images.search.yahoo.com/search/images?p=animal+image&fr=mcafee&type=E210US885G0&imgurl=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2Fimages6%2F3840x2160-Animal-Wallpaper-HD.jpg#id=24&iurl=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2Fimages6%2F3840x2160-Animal-Wallpaper-HD.jpg&action=click" target "black"> visit Email></a>
+                    
+                   </p>
+                   <p>
+                    <a href="https://bamuaapp.digitaluniversity.ac/SearchDuplicateResult.aspx" Target="_black">visite bamu</a>
+                   </p>
+                   <p>
+
+                   <a href="https://openai.com/index/chatgpt/" target="_black">visite chatgpt</a>
+                    
+                    </p>
+                    <h3> Images</h3>
+                    <img src="logo.img.png" alt="logo" width="400" height="400" >
+
+                    <h3> audio </h3>
+                    <audio controls>
+                    <source src="mp3 - Copy.mp3" type="audio/mp3">
+
+                    </audio>
+                    <h3>video</h3>
+                    <video width="500" height="250" controls>
+                        <source src="mixkit-green-vailed-chameleon-seen-from-one-side-1489-full-hd.mp4" type="video/mp4">
+                 
+                    </video>
+                    
+                   <iframe src="https://example.com"
+                   width="400"
+                   height="200"
+                   style="border: 2px solid #ccc;"
+                   frameborder="0"></iframe> 
+
+                   
+                    <section id= "tables">
+                        <h2> Tabels</h2>
+                        <table border="5">
+                            <caption> Student Grades Tabel</caption>
+                        
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Subject</th>
+                                    <th>Gread</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Akshay wagh
+                                    </td>
+                                    <td>
+                                        Bhugol
+                                    </td>    
+                                        <td>
+                                        90
+                                        </td>
+                                        <td>
+                                            passed
+                                        </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        atul rathod
+                                    </td>
+                                <td>
+                                    science
+                                </td>
+                                <td>
+                                    85
+
+                                </td>
+                                <td>
+                                    passed
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    shrikant pawar
+                                </td>
+                                <td>
+                                    math
+                                </td>
+                                <td>
+                                    86
+                                </td>
+                                <td>
+                                    passed
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    rahul kadam
+                                </td>
+                                <td>
+                                    english
+                                </td>
+                                <td>
+                                    90
+                                </td>
+                                <td> passed
+                            </td>
+                        </tr>
+                            <tr>
+                                <td>
+                                    yogesh nagre
+                                </td>
+                                <td>
+                                    computer science
+                                </td>
+                                <td>
+                                    85
+                                </td>
+                                <td>
+                                    passed
+                                </td>
+                            </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2"> Average</td>
+                                    <td>98.5</td>
+                                    <td>--</td>
+                                </tr>
+                            </tfoot>
+                            <table>
+                                <h3>table with marged cells</h3>
+                                <table border="5">
+                                    <tr>
+                                        <th rowspan="2"> Name</th>
+                                        <th colspan="2"> Scores</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Test 1</th>
+                                        <th> Test 2</th>
+                                    </tr>
+                                    <tr>
+                                        <td> Akshay</td>
+                                        <td>85</td>
+                                        <td>90</td>
+                                    </tr>
+                            </table>
+
+                            </search>
+
+                            <section id="forms">
+                                <h2>Forms</h2>
+                                <form action="#"method="post">
+                                    <fieldset>
+                                        <legend>Persanal Inmformation form</legend>
+                                        <label for="Fname">first name:</label>
+                                        <input type="text" id="Fname" name="First name"
+                                        required>
+                                        <br><br>
+                                        <label for="email">Last name:</label>
+                                        <input type="text" id="Lname" name="Last name"
+                                        required>
+                                        <br><br>
+                                        <label for="email">Email:</label>
+                                        <input type="text" id="email"name="email"required>
+                                        <br><br>
+                                        <label for="phone">phone:</label>
+                                        <input type="tel" id="phone" name="phone" requierd>
+                                        <br><br>
+                                        <label for="date">date of birth:</label>
+                                        <input type="date" id="phone " name="phone" required>
+                                        <br><br>
+                                        <label for="age">Age:</label>
+                                        <input type="number" id="age" name="age" required>
+                                        <br><br>
+                                        <label for="password">password:</label>
+                                        <input type="url" id="website" name="website"
+                                 required>
+
+                                        <br><br>
+                                        <label for="password">password:</label>
+                                        <input type="password" id="password" name="password"
+                                 required>
+
+                                            <br><br>
+                                            
+                                    </fieldset>
+
+                                    <fieldset>
+                                        <legend>Preferences</legend>
+                                        <label for="countntry"> countntry</label>
+                                        <select name="countntry" id="countntry">
+                                            <option value="">Select Countntry</option>
+                                            <option value="india">India</option>
+                                            <option value="usa">USA</option>
+                                            <option value="UK">UK</option>
+                                            <option value="canada">Conada</option>
+                                        </select>
+                                        <br><br>
+                                        <label for="skills">Skills:</label>
+                                        <select name="skills" id="skills" multiple>
+                                            <option value="html">HTML</option>
+                                            <option value="css">CSS</option>
+                                            <option value="java script">Java Script</option>
+                                            <option value="python">Python</option>
+                                            <option value="c++">C++</option>
+                                            <option value="yaml">Yaml</option>
+                                            <option value="r">R</option>
+
+                                     </select>
+                                     <br><br>
+                                    
+                                    <p>Gender</p>
+                                    <input type="radio" id="male" name="gender"
+                              value="male">
+                               <label for="male">Male</label><br>
+                               <input type="radio" id="female" name="gender" 
+                             value="female">
+                               <label for="female">Female</label><br>
+                                <input type="radio" id="other" name="gender" 
+                            value="other">     
+                                <label for="other">Other</label><br>
+
+                                <p>Interestes(checl all that aplly):</p>
+                                <input type="checkbox" id="coding" name="interestes"
+                            value="coding"> 
+                                <label for="coding">Coding</label><br>
+                                <input type="checkbox" id="gaming" name="interestes"
+                            value="gaming"> 
+                            <label for="gaming">Gaming</label><br>
+                            <input type="checkbox" id="reading"
+                  Name="interestes" value="reading">
+                          <label for="reading">Reading</label><br>
+                          <input type="checkbox" id="traveling"
+                name="interestes" value="traveling">
+                          <label for="traveling">traveling</label><br><br>
+
+                          <label for="rang">Experince Level(1-10):</label>
+                          <input type="range" id="rang" name="Experince"
+                          min="1" max="10" value="5">
+                          <br><br>
+
+                          <label for="color">Favorite Color:</label>
+                          <input type="color" id="color" name="color"
+                          value="#ff0000">
+                          <br><br>
+
+                          <label for="file">upload Resume:</label>
+                          <input type="file" id="file" name="resume"
+                          accept=".pdf,.doc,.docx">
+                          <br><br>
+                            <label for="comments">Comments:</label>
+                            <textarea name="comments" id="comments" rows="4"
+                            cols="60" placeholder="enter your comment here..."></textarea>
+                            
+                            <fieldset>
+
+                                <input type="submit" value="Submit">
+                                <input type="reset" value="Reset">
+                                <button type="button" onclick="alert"('form 
+                                    submitted!')">Custom Button"</button>
+
+                                 </form>
+                                 </section>
+
+                                 <section id="semantic">
+                                    <h2>Semantic HTML Tags</h2>
+                                    <article>
+                                        <header>
+                                            <h3>Article Title</h3>
+                                            <p>Published on:<time datetime="2025-06-20"> june 20,
+                                                2025</time></p>
+                   
+                                        </header>
+                                         <p>This is a brief summary of the article content.</p>
+                                          <aside>
+                                       <h4>Related Information</h4>
+                                              <p>This section contains related information or 
+                                                links.</p>
+                                            </aside>
+                                              <footer>
+                                                 <p>Article title with author information</p>
+                                        </footer>
+                                    </article>
+                                        <details>
+                                    <summary>More Information about the article</summary>
+                                             <p>This section contains additional details about the
+                                                 article.</p>
+                                         </details>
+                                       <progress value="70" max="100">70% completed</progress>
+                                     <p>Progress:70%</p>
+
+                                     <meter value="8" min="0" max="10">8</meter>
+                                     <p>Rating: 8/10</p>
+                                 </section>
+                                  <section id="advanced">
+    <h2>Advanced HTML Tags</h2>
+    <h3>Data and Microdata</h3>
+    <p>
+        Product: <data value="29.99">$29.99</data>
+        <p><time datetime="2025-06-20T17:36:00">June 20, 2025 at 5:36 PM</time></p>
+
+        <h3>Ruby Annotations (for east asian typography)</h3>
+        <ruby>
+            漢 <rp>(</rp><rt>kan</rt><rp>)</rp>
+            字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+        </ruby>
+
+        <h3>Bidirectional Text</h3>
+            <p>This paragraph contains <bdi>This is right to left text</bdi> which should be displayed right-to-left.</p> 
+            <p><bdo dir="rtl">This text will be displayed right-to-left</bdo></p> 
+    </h3>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+        <text x="50" y="55" font-size="20" text-anchor="middle" fill="white">SVG</text>
+    </svg>
+
+    <h3>mathematical Content</h3>
+    <math>
+        <mi>x</mi>
+       
+        <mo>=</mo>
+        
+        <mfrac>
+            <mrow>
+                <mo>-</mo>
+                <mi>b</mi>
+                <mo>±</mo>
+                <msqrt>
+                    <msup>
+                        <mi>b</mi>
+                        <mn>2</mn>
+                    </msup>
+                    <mo>-</mo>
+                    <mn>4</mn> <mi>a</mi><mi>c  </mi>
+                </msqrt>
+            </mrow>
+            <mrow>
+                <mn>2</mn><mi>a</mi>
+        </mfrac>
+    </math>
+                                
+                                </fieldset>
+                    
+                          
+
+                                     
+                           </fieldset>
+                            
+
+                            
+                                
+                            </body>
+                            </html>
+                   
+
+        
