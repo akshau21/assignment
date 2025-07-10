@@ -1,0 +1,116 @@
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+
+        }
+            body{
+            background: linear-gradient(135deg, #ffe259, #ffa751);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .navbar{
+            padding: 10px 20px;
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+        }
+        .heading{
+            font-size: 25px;
+            font: 700;
+        }
+
+        .nav-link li{
+            margin:  0 15px;
+            text-decoration: none;
+            display: inline-block;
+            margin-right: 15px;
+        }
+        li a {
+            text-decoration: none;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 20px;
+            text-align: center;
+            flex-direction: column;
+            min-height: inherit;
+        }
+
+        .heading{
+            max-width: 600px;
+            width: 100%;
+        }
+        .heading h1{
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        .heading p{
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .search-box{
+            background-color: #fff;
+            padding: 30px 20px;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 12px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .order{
+            display: flex;
+            justify-content: start;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .order p{
+            font-size: 1rem;
+            font-weight: 700;
+            color: #343434;
+            border-bottom: 2px solid transparent;
+            transition: color 0.2s border-bottom 0.2s;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .input-group{
+            display: flex;
+            align-items: center;
+            border: 1px solid  #ddd;
+            padding: 12px 15px;
+            background-color: #f9f9f9;
+            font-size: 16px;
+            border-radius: 12px;
+            
+        }
+        .input-group i {
+            color: #888;
+            margin-right: 10px;
+        }
+        .input-group input{
+            border: none;
+            outline: none;
+            background: transparent;
+            flex: 1;
+            font-size: 16px;
+        }
+        .btn{
+            transition:none;
+            color: #ddd;
+            background-color: rgb(209, 34, 40);
+            padding: 10px 150px;
+            font-size: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 10px;
+        }
+        
+        
